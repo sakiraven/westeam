@@ -1,0 +1,358 @@
+*{
+     margin: 0 auto;
+     padding: 0;
+ }
+.bodayall{
+    background-color: rgb(27, 40, 56);/*标签背景颜色*/
+    width: 120px;                    /*宽度*/
+    position: absolute;
+    top:200px ;
+    left:30px;
+}
+.jianhao{                          /*左右箭头*/
+    position: absolute;
+    top: 20px;
+    left: 280px;
+}
+.you{                            /*右箭头*/
+
+    position: absolute;
+    top: 150px;
+    left:995px;
+
+}
+.zuo{                           /*左箭头*/
+
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.zuobiant{                  /*轮播左透明*/
+    position: absolute;
+    top: 135px;
+    left: 242px;
+    width: 30px;
+    height: 60px;
+    background: rgba(22,61,84,0.5);
+}
+.youbiant{                  /*轮播右透明*/
+    position: absolute;
+    top: 135px;
+    left: 987px;
+    width: 30px;
+    height: 60px;
+    background: rgba(22,61,84,0.5);
+}
+.one {                     /*设置透明块1-9个*/
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width: 20px;
+}
+.two {
+    position: absolute;
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width:  20px;
+    top:0px;
+    left: 40px;
+}
+.three{
+    position: absolute;
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width:  20px;
+    top:0px;
+    left: 80px;
+}
+.four{
+    position: absolute;
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width:  20px;
+    top:0px;
+    left: 120px;
+}
+.five{
+    position: absolute;
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width:  20px;
+    top:0px;
+    left: 160px;
+}
+.six{
+     position: absolute;
+     background: rgba(73, 98, 116, 0.7);
+     height: 10px;
+     width:  20px;
+     top:0px;
+     left: 200px;
+ }
+.seven{
+     position: absolute;
+     background: rgba(73, 98, 116, 0.7);
+     height: 10px;
+     width:  20px;
+     top:0px;
+     left: 240px;
+ }
+.eight{
+    position: absolute;
+    background: rgba(73, 98, 116, 0.7);
+    height: 10px;
+    width:  20px;
+    top:0px;
+    left: 280px;
+}
+#xuanzelan{
+    position: absolute;
+    top: 100px;
+}
+.qiuqiu{                       /*控制轮播条的位置*/
+    position: absolute;
+    top: 330px;
+    left: 300px;
+}
+ a{                             /*给a标签去掉下滑线*/
+    text-decoration:none;
+}
+ .wenzi{                        /*精选和推荐*/
+     position: absolute;
+     color: white;
+     top:-10px;
+     left:180px;
+     width: 200px;
+
+ }
+.xinpin{                        /*新品发售*/
+    position: absolute;
+    color: white;
+    top: 400px;
+    left: 257px;
+    width: 150px;
+}
+.liulan{                      /*浏览所有*/
+    width: 78px;
+    position: absolute;
+    border: solid 1px white; /*给浏览所有加1px边框*/
+    color: white;
+    top: 400px;
+    left: 895px;
+}
+.liulan_xuanting{
+    width: 78px;
+    position: absolute;
+    border: solid 3px white; /*给浏览所有加1px边框*/
+    color: white;
+    top: 400px;
+    left: 895px;
+}
+.da1{                         /*大小蓝色条*/
+    position: absolute;
+    top: 578px;
+    left:305px ;
+}
+.da2{
+    position: absolute;
+    top:578px ;
+    left:550px ;
+}
+.da3{
+    position: absolute;
+    top:578px ;
+    left:795px ;
+}
+.dt1{
+    position: absolute;
+    top: 770px;
+    left: 305px;
+    width: 230px;
+    height:80px;
+    background: #1a6185;
+}
+.dt2{
+    position: absolute;
+    top: 770px;
+    left: 550px;
+    width: 230px;
+    height: 80px;
+    background: #1a6185;
+}
+.dt3{
+
+    position: absolute;
+    top: 770px;
+    left: 795px;
+    width: 230px;
+    height: 80px;
+    background: #1a6185;
+}
+.time{                            /*设置发售时间字体*/
+    font-size: 15px;
+    font-weight: 700;
+    color: #4ea2bf;
+}
+.money
+{
+	position: absolute;
+    top: 55px;
+    font-size: 20px;
+    color: yellow;
+   font-family:sans-serif;
+
+}
+.xialunbo{
+    position: absolute;
+    top: -150px;
+    left: -50px;
+}
+.logo{                 /*logo*/
+    position: absolute;
+    top: -60px;
+    left: -60px;
+}
+.dahei{             /*黑色轮播*/
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top:20px;
+    left:780px;
+    background: rgb(10,20,29);
+}
+.sanjiao{            /*轮播三角号黑轮播向左移动*/
+    position: absolute;
+    left: -100px;
+}
+.fulunbo{
+    position: absolute;
+    left: -80px;
+}
+.datiao{
+    position: absolute;
+    left: -80px;
+}
+.xl{
+    position: absolute;
+    left: -80px;
+}
+.zuobian{              /* 左边三角*/
+    position: absolute;
+    top: 550px;
+    left: 142px;
+    width: 15px;
+    height: 28px;
+}
+.youbian{                 /* 右边三角*/
+    position: absolute;
+    top: 550px;
+    left:913px;
+    width: 15px;
+    height: 28px;
+}
+.zuobiantouming{
+    position: absolute;
+    top:535px;
+    left:135px;
+    background: rgba(22,61,84,0.5);
+    width:30px;
+    height:60px;
+}
+.youbiantouming{
+    position: absolute;
+    top:535px;
+    left:903px;
+    background: rgba(22,61,84,0.5);
+    width:30px;
+    height:60px;
+}
+.logo05{                                               /*小logo*/
+    position: absolute;
+    top: 290px;
+    left:820px;
+    width: 100px;
+    height: 100px;
+}
+.logo06 {
+    position: absolute;
+    top: 290px;
+    left: 850px;
+    width: 100px;
+    height: 100px;
+}
+.logo07 {
+    position: absolute;
+    top: 290px;
+    left: 790px;
+    width: 100px;
+    height: 100px;
+}
+.lv1{
+    position: absolute;
+    top: 675px;
+    left: 175px;
+    width: 57px;
+    height: 25px;
+    background: rgba(76,107,34,0.5);
+}
+.lv2{
+    position: absolute;
+    top: 675px;
+    left: 420px;
+    width: 57px;
+    height: 25px;
+    background: rgba(76,107,34,0.5);
+}
+.lv3{
+    position: absolute;
+    top: 675px;
+    left: 665px;
+    width: 57px;
+    height: 25px;
+    background: rgba(76,107,34,0.5);
+}
+.lv4{
+    position: absolute;
+    top: 290px;
+    left:685px ;
+    width: 57px;
+    height: 25px;
+    background: rgba(139,244,2,0.3);
+}
+/*黑色框绿色条*/
+.lv4 h5{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: yellow;
+}
+.dahei h3{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+
+}
+.dahei h5{
+     position: absolute;
+     top: 220px;
+     left: 5px;
+     color: white;
+     font-style: italic;
+ }
+.dahei h6{
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    color: white;
+    font-style: italic;
+}
+.baise{
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    width: 50px;
+    height: 15px;
+   background: rgba(57,65,72,0.7);
+}
+

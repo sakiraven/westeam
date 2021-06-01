@@ -1,0 +1,22 @@
+﻿.siwangbiaoqian {
+    /*padding: 17.5px;*/
+    /*height: 50px;*/
+
+    position: absolute;
+    right: 0px;
+    top:5px;
+    z-index: 100;
+}
+
+/*浮动标签*/
+.siwangbiaoqian button {
+    border-radius: 5px;
+    background-color: #264055;
+    padding: 8px;
+    margin: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 1px solid #4c9acc;
+    border-bottom: 1px solid #4c9acc;
+    color: #67b0c6 ;
+}

@@ -1,0 +1,156 @@
+*{
+     margin: 0 auto;
+     padding: 0;
+ }
+
+.kuang{
+    width: 1024px;
+
+
+}
+
+.touxiang{
+    width: 556px;
+    height: 120px;
+}
+.touxiang img{
+    width: 110px;
+    height: 110px;
+    /*position: absolute;*/
+    /*top: 5px;*/
+    /*left:233px;*/
+}
+.touxiang p{
+    color: #ffffff;
+    font-size: 40px;
+    position:relative;
+    left: 180px;
+    top:-80px;
+}
+.neirong{
+    width: 556px;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+.qwer
+{
+    position:relative;
+    top: 15px;
+    left: -20px;
+}
+.tupian{
+    position: relative;
+    top: 20px;
+    left: -30px;
+    color: #b8b8b8;
+    font-size: 10px;
+    width: 500px;
+    height: 240px;
+
+}
+.da img{
+    width: 200px;
+    height: 200px;
+}
+.zhong img{
+    position: relative;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+.xiao img{
+    position: relative;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.shangchuan{
+    position: relative;
+    top: 15px;
+    left: 330px;
+}
+.jine{
+
+    width: 200px;
+    height: 30px;
+   position: relative;
+   margin-left: 180px;
+   margin-top: 20px;
+}
+.jineaniu{
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    border-right:1px solid rgba(0, 0, 0, 0.98);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #f9f0f6;
+}
+
+.chongzhianniu{
+    width: 300px;
+    height:150px;
+
+    position: relative;
+    margin-top: 35px;
+    border: 1px dashed #000;
+    background-color:rgba(40,81,100,0.6) ;
+
+}
+.chongzhi{
+    position: relative;
+    top: 30px;
+    left: 200px;
+
+
+}
+.chongzhi input{
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    border-right:1px solid rgba(0, 0, 0, 0.98);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #f9f0f6;
+}
+.baocun{
+    position: relative;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.anniu1
+{
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border-right:1px solid rgba(0, 0, 0, 0.34);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+    background-color: #5ab8a7;
+}
+.anniu2{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+    border-right:1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #2a2f30;
+}
+.zxc{
+
+    height: 300px;
+}
+.zxc p{
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.jianbian{
+    width:80%;
+    height: 5px;
+    margin:0 auto;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(25, 70, 96, 0), rgba(25, 70, 96, 0.75), rgba(25, 70, 96, 0));
+}

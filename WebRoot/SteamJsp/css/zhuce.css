@@ -1,0 +1,230 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.bodayall{
+    background-color: rgb(233, 128, 76);/*±êÇ©±³¾°ÑÕÉ«*/
+    width: 830px;/*¿í¶È*/
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+.p {
+    color: red;
+    margin-left: 20px;
+    display: inline-block;
+}
+input{
+	color:white;
+}
+.c {
+    color: red;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.l {
+    font-size: 18px;
+}
+
+.d {
+    height: 30px;
+    width: 300px;
+    display: inline;
+
+}
+
+.i {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    left: 40px;
+}
+#nicheng{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+}
+
+#mailyzm{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    left: 42px;
+}
+.juzhudi {
+    font-size: 18px;
+}
+.country_select{
+    position: relative;
+    left: -65px;
+    color: #ccd9d9
+}
+
+.blueish{
+    position: relative;
+    left: 40px;
+}
+.chuangjian{
+    position: relative;
+    margin-top: -5px;
+    margin-left: -200px;
+}
+.zhuti{
+    position: relative;
+    margin-top: -130px;
+}
+.zhuqi{
+    position: relative;
+    left: 77px;
+}
+.qidi{
+    position: relative;
+    left: -86px;
+    color: #ccd9d9
+}
+#username{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+}
+#login_password{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+}
+#confirm_password{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+}
+#kuang{
+    border: 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border-right: 1px solid #45556c;
+    border-bottom: 1px solid #45556c;
+    background-color: #121a24;
+}
+.zhuwi{
+    position: relative;
+    left: -78px;
+    color: #ccd9d9
+}
+.zhuli{
+    position: relative;
+    left: 40px;
+    width: 300px;height: 30px;
+}
+.zhufi{
+    position: relative;
+    left: -78px;
+    color: #ccd9d9;
+
+}
+.zhuki{
+    position: relative;
+    left: 40px;
+}
+.zhugi{
+    position: relative;
+    left: -10px;
+    color: #67c1f5;
+    font-size:15px;
+}
+#mailbutton{
+    font-size: 8px;
+    border-radius: 2px;
+    width: 68px;
+    height: 25px;
+    color: #467da2;
+    font-weight: bold;
+    background-color: #203b52;
+    border: none;
+    /*background-color: #2b4e6e;*/
+    /*color: #67c1f5;*/
+}
+/*#mailbutton:hover{*/
+    /*font-size: 8px;*/
+    /*border-radius: 2px;*/
+    /*width: 68px;*/
+    /*height: 25px;*/
+    /*color: #faf8ff;*/
+    /*font-weight: bold;*/
+    /*background-color: #5eacf1;*/
+    /*border: none;*/
+/*}*/
+.zhuhi{
+    position: relative;
+    left: -10px;
+
+}
+.zhuji{
+    position: relative;
+    left: -10px;
+    color: #ccd9d9
+}
+.shuoming{
+    width: 330px;
+    height: 500px;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -20px;
+    background:rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+}
+.zhuwen{
+position: relative;
+    margin-top: 30px;
+    margin-left:-850px;
+    color: #ccd9d9
+
+}
+.zhuni{
+    width: 300px;height: 30px;
+    margin-left:80px;
+}
+.zhucheng{
+    margin-left:-190px;
+    color: #ccd9d9
+}
+.login h2{
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #ccd9d9
+ ;
+}
+#list{
+    list-style-position: inside;
+    /*list-style-type: square;*/
+    line-height: 22px;
+    color: #ccd9d9
+}
+#zhichixitong{
+    color: #ccd9d9
+}
+#xitongbanben{
+    color: #ccd9d9
+}
+
+.zhuni{
+
+}

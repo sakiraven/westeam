@@ -1,0 +1,119 @@
+.tongzhi {
+    width: 500px;
+    height: 450px;
+    background-color: #1b2838;
+    position: absolute;
+    top: 55px;
+    right: 250px;
+    border: 1px solid #22455b;
+    z-index: 100;
+
+}
+
+.tongzhizuonei {
+    left: 0px;
+    width: 180px;
+    height: 449px;
+    /*background-color: #0066FF;*/
+    margin: 0px;
+}
+
+.xiaoxibiaoti {
+    margin-left: 0px;
+    height: 50px;
+    width: 161px;
+    background-color: #171a22;
+    border-bottom: 1px solid black;
+    border: 1px solid rgba(200, 200, 200, 0.2);
+}
+
+.xiaoxibiaoti:hover {
+    border: 1px solid #4398ff;
+}
+
+
+.xiaoximing {
+    color: white;
+    position: relative;
+    width: 130px;
+  right: 10px;
+    top: 15px;
+    line-height: 5px;
+    /*background-color: #0066FF;*/
+}
+
+.tongzhiyoushang {
+
+    height: 50px;
+    width: 320px;
+    right: 0px;
+    background-color: #282e36;
+    position: absolute;
+    top: 0px;
+}
+
+.tongzhiguanbi:hover, .wode_guanbi:hover,.tongzhibiaotiguanbi:hover {
+    opacity: 0.3;
+}
+
+.tongzhiyoushang img {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #282e36;
+    border-radius: 10px;
+    margin: 0px;
+    /*opacity: 0.3;*/
+}
+
+.tongzhibiaotiguanbi {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    border-radius: 10px;
+}
+.tongzhiyounei {
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 304px;
+    height: 400px;
+    padding-left: 8px;
+    padding-right: 8px;
+    scrollbar-face-color: #1b2838;
+    scrollbar-shadow-color: #3b5881; /**//*立体滚动条边框的颜色*/
+    scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/
+    scrollbar-track-color: #3b5881; /**//*立体滚动条背景颜色*/
+    line-height: 25px;
+
+
+}
+.jieshouhaoyouqingqiu{
+    height: 22px;
+    width: 50px;
+border-radius: 50px;
+    line-height: 0px;
+    margin-top: 25px;
+    background-color: #2a475e;
+    border: 0px;
+   margin-left: 227px;
+    color: #a9b6b6;
+
+ }
+.tongzhianniu{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border: 1px solid #a9b6b6;
+    border-radius: 20px;
+    top: 20px;;
+    right: 15px;
+
+}
+

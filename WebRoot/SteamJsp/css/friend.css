@@ -1,0 +1,432 @@
+
+.liaotian1 {
+    width: 500px;
+    height: 450px;
+    background-color: #1b2838;
+    position: absolute;
+    top: 55px;
+    right: 250px;
+    border: 1px solid #22455b;
+    z-index: 100;
+}
+textarea{
+	color:white;
+}
+.zuonei {
+    width: 180px;
+    height: 420px;
+    background-color: #1b2838;
+    position: absolute;
+    scrollbar-face-color: #1b2838;
+
+    scrollbar-shadow-color: #3b5881; /**//*立体滚动条边框的颜色*/
+    scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/
+    scrollbar-track-color: #3b5881; /**//*立体滚动条背景颜色*/
+
+}
+
+.liaotianbiaoti {
+
+    height: 50px;
+    width: 320px;
+    right: 0px;
+    background-color: #282e36;
+    position: absolute;
+    top: 0px;
+}
+
+.haoyou1 {
+    margin-left: 0px;
+    height: 50px;
+    width: 161px;
+    background-color: #171a22;
+    border-bottom: 1px solid black;
+    border: 1px solid rgba(200, 200, 200, 0.2);
+}
+
+.haoyou1:hover {
+    border: 1px solid #4398ff;
+}
+
+.haoyou1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.name {
+    color: #a9b6b6;
+    width: 100px;
+    font-size: 14px;
+    position: relative;
+    left: 22px;
+    top: -47px;
+
+}
+
+.shanchu {
+
+    color: white;
+    width: 30px;
+    height: 15px;
+    font-size: 8px;
+    position: relative;
+    left: 115px;
+    top: -45px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: #1b2838;
+}
+
+.name1 {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+.liaotianbiaoti img {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #282e36;
+    border-radius: 10px;
+    margin: 0px;
+    /*opacity: 0.3;*/
+
+}
+
+.guanbiduihua:hover {
+    opacity: 0.3;
+}
+
+.shuru {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    width: 315px;
+    height: 75px;
+    font-size: 16px;;
+    border: 1px solid black;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding: 5px;
+    background-color: #1b2838;
+
+}
+
+.zuoneida {
+    left: 0px;
+    width: 180px;
+    height: 449px;
+    /*background-color: #0066FF;*/
+    margin: 0px;
+}
+
+.fasong {
+    position: absolute;
+
+    right: 0px;
+    bottom: 5px;
+    width: 320px;
+    height: 30px;
+    padding: 0px;
+    background-color: #1b2838;
+}
+
+.fasonganniu {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 22px;
+    top: 3px;
+    border-radius: 3px;
+    background-color: #2a475e;
+    border: solid #2a475e;
+    z-index: 1;
+    color: #a9b6b6;
+
+}
+
+.qingkong {
+    position: absolute;
+    z-index: 2;
+    right: 80px;
+    bottom: 5px;
+    width: 120px;
+    height: 30px;
+    padding: 0px;
+    /*background-color: #6197d1;*/
+}
+
+.qingkonganniu {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 22px;
+    top: 3px;
+    border-radius: 3px;
+    background-color: #2a475e;
+    border: solid #2a475e;
+    z-index: 1;
+    color: #a9b6b6;
+
+}
+
+.xiaoxikuang {
+    background-color: #1b2838;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    width: 320px;
+    height: 284px;
+    border-bottom: 1px solid;
+    scrollbar-face-color: #1b2838;
+
+    scrollbar-shadow-color: #3b5881; /**//*立体滚动条边框的颜色*/
+    scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/
+    scrollbar-track-color: #3b5881; /**//*立体滚动条背景颜色*/
+    float: left;
+
+}
+
+.kehuduanxiaoxi {
+    text-align: right;
+    line-height: 22px;
+    width: auto;
+    border: 1px solid rgba(95, 95, 95, 0.66);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 0px;
+    top: -22px;
+    color: white;
+
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+}
+
+.kehutouxiang {
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.ziyongtouxiang {
+    position: relative;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    left: 247px;
+}
+
+.ziyongduanxiaoxi {
+    text-align: right;
+    line-height: 22px;
+    width: auto;
+    border: 1px solid rgba(95, 95, 95, 0.66);
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+    position: relative;
+    right: 60px;
+    top: 11px;
+    color: white;
+
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+
+}
+
+.benrenyouxi {
+    position: absolute;
+    top: 55px;
+    right: 89px;
+    width: 200px;
+    background-color: white;
+    height: 400px;
+    background-color: #1b2838;
+    border: 1px solid #22455b;
+    z-index: 100;
+}
+
+.wodebiaoti {
+    background-color: #000000;
+    right: 89px;
+    width: 192px;
+    height: 35px;
+    color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.youxikuang {
+    background-color: #1b2838;
+    right: 89px;
+    width: 200px;
+    height: 355px;
+    color: white;
+    margin: 0px;
+    scrollbar-face-color: #1b2838;
+    scrollbar-shadow-color: #3b5881; /**//*立体滚动条边框的颜色*/
+    scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/
+    scrollbar-track-color: #3b5881; /**//*立体滚动条背景颜色*/
+
+}
+
+.wode_youximing {
+
+    background-color: #16202d;
+    right: 0px;
+    width: 180px;
+    height: 47px;
+    font-size: 12px;
+    top: 0px;
+    margin-bottom: 3px;
+    position: relative;
+
+    border: 1px solid #16202d;
+    background-color: #16202d;
+
+}
+
+.wode_youximing:hover {
+    background-color: #101822;
+    border: 1px solid #3275c3;
+}
+
+.wode_youximing img {
+
+    padding: 2px;
+    height: 45px;
+    width: 45px;
+}
+
+.wode_youxibiaoti {
+    position: relative;
+    top: -50px;
+    left: 27px;
+    width: 120px;
+    /*background-color: #0066FF;*/
+}
+
+.wode_guanbi {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 170px;
+    top: 12px;
+    border-radius: 50px;
+    /*background-color: #0066FF;*/
+}
+
+.zuoneishang {
+
+    height: 22px;
+    margin-bottom: 2px;
+}
+
+.sousuohaoyou {
+    height: 22px;
+    width: 176px;
+    border: 1px solid #000000;
+    background-color: #2a475e;
+    border-right: 0px;
+    padding-left: 3px;
+    margin-bottom: 2px;
+
+}
+
+.sousuo_tianjiahaoyou {
+    width: 40px;
+    position: absolute;
+    top: 4px;
+    left: 135px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 1px solid #22455b;
+    color: #a9b6b6;
+    background-color: #316282;
+    border: 0px;
+
+}
+
+.sousuo_haoyouliebiao {
+    height: auto;
+    width: 177px;
+    position: absolute;
+    border: 1px solid #000000;
+    border-top: 0;
+    background-color: #1b2838;
+    top: 23px;
+    margin: 0px;
+
+}
+
+.sousuo_jieguo {
+
+    height: 32px;
+    width: 172px;
+    padding-left: 0px;
+    /*border: 1px solid #0066FF;*/
+    padding-left: 0px;
+    border-top: 0px;
+    font-size: 15px;
+    background-color: #101822;
+    padding-left: 5px;
+    padding-top: 15px;
+    color: white;
+    margin-bottom: 2px;
+
+}
+
+.sousuo_tianjia {
+    width: 40px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    z-index: 1;
+    border-radius: 50px;
+    background-color: #2a475e;
+    border: 0px;
+    color: #a9b6b6;
+}
+
+.zhuangtaianniu {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border: 1px solid #a9b6b6;
+    border-radius: 20px;
+    top: -48px;;
+    left: 55px;
+    z-index: 2;
+}
+
+/*.dibubiankuang{*/
+/*position: absolute;*/
+/*bottom: 0px;*/
+/*right: 0px;*/
+/*height: 25px;*/
+/*width: 320px;*/
+/*background-color: #171a22;*/
+
+/*}*/
+
+/*/!* 滚动槽 *!/*/
+/*.zuonei::-webkit-scrollbar-track {*/
+/*border-radius:10px;*/
+/*}*/
+
+/*/!* 滚动条滑块 *!/*/
+/*.zuonei::-webkit-scrollbar-thumb {*/
+/*border-radius:10px;*/
+/*background:black;*/
+/*}*/

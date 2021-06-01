@@ -1,0 +1,115 @@
+.suoyou{
+  position: relative;
+    left:120px;
+    top: -100px;
+}
+.ninde{
+    position: absolute;
+    left: 180px;
+    top:214px;
+    color:rgba(248,236,237,0.5);
+}
+a{
+    text-decoration:none;
+}
+.dazi{
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    color: white;
+}
+.touming{
+    position: absolute;
+    background: rgba(35,61,87,0.5);
+    width: 850px;
+    height: 40px;
+    left: 100px;
+    top: 270px;
+}
+
+.shuiping{
+   /* position: absolute;
+    top: 400px;
+    left: 130px;*/
+    width:80%;
+    margin:0 auto;
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(25, 70, 96, 0), rgba(25, 70, 96, 0.75), rgba(25, 70, 96, 0));
+}
+.tupian{
+    position: relative;
+    top: 10px;
+    left: 5px;
+
+}
+.tupian img{
+    width: 150px;
+    height: 60px;
+}
+.wenzi{
+    position: relative;
+    top: -20px;
+    left: 110px;
+}
+
+.yitiao{
+    position: relative;
+    top: -45px;
+    left: 93px;
+    width:850px;
+    background: rgba(0,0,0,0);
+}
+/*logo*/
+.logo img{
+    position: relative;
+    top: -18px;
+    left: 300px;
+    max-height: 20px;
+    max-width: 20px;
+}
+/*游戏价格*/
+.jiage{
+    position:relative;
+    top:-25px ;
+    left: 330px;
+    color: white;
+}
+/*删除*/
+.yichu{
+    position: relative;
+    top: -5px;
+    left: 300px;
+    color: white;
+}
+/*游戏名字*/
+.wenzi a{
+    position: relative;
+    color: #1a6185;
+}
+/*游戏个数*/
+.geshu{
+    position: relative;
+    left:650px;
+    top: 0px;
+    color: white;
+}
+/*购买按钮*/
+.goumai button{
+    position: relative;
+    left: 700px;
+    top: 50px;
+    border-radius: 2px;
+    display: block;
+    background: transparent;
+    text-shadow: -1px -1px 0px rgba( 0, 0, 0, 0.1 );
+    border: none;
+    cursor: pointer;
+    color: #D2E885 !important;
+    background-color:rgb(114,143,5);
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}

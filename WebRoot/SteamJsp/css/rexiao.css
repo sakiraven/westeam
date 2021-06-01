@@ -1,0 +1,302 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.bodayall {
+    background-color: #1b2838; /*标签背景颜色*/
+    width: 830px; /*宽度*/
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    z-index: -1;
+}
+
+.biaoti {
+    position: absolute;
+    top: 190px;
+    left: 110px;
+    color: white;
+    font-size: 35px;
+}
+
+.sousuo {
+    top: 12px;;
+    position: absolute;
+    width: 620px;
+    height: 35px;
+    background-color: #101822; /*标签背景颜色*/
+    z-index: 3;
+}
+
+/*物品搜索框左上*/
+.wupinsousuo {
+    margin: 6px;
+    background-color: #213a4c;
+    top: 2px;
+    left: 3px;
+    height: 20px;
+    width: 300px;
+    border: 1px solid black;
+    color: #67c1f5;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/*排序依据*/
+.paixubiaoqian {
+    position: absolute;
+
+    color: #4c6c8c;
+    font-size: 12px;
+    font-weight: bold;
+    right: 100px;
+    top: 12px;
+}
+
+/*下拉框字体*/
+#xiala {
+    position: absolute;
+    font-size: 11px;
+    top: 10px;
+    right: 5px;
+    background-color: #192937;
+    color: #67c1f5;
+    border: 0px;
+    border-radius: 3px;
+    border: 1px solid #192937;
+}
+
+#xiala:hover {
+    border: 1px solid #67c1f5;
+}
+
+/*搜索按钮*/
+#anniu {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    top: 6px;;
+    background-color: #192937;
+    color: #67c1f5;
+    border: 0px;
+    border-radius: 3px;
+
+}
+
+#anniu:hover {
+    color: white;
+    background-color: #60b5e5;
+}
+
+/*缩小范围右1*/
+.suoxiaofanwei {
+    margin: 12px -4px;
+    color: white;
+    color: #9fbbcb;
+    background-color: #1b2838; /*标签背景颜色*/
+    height: auto;
+    width: 195px;
+    float: right;
+    border: 1px solid #4c6c8c;
+    top: 12px;
+
+}
+
+/*#label-fanwei,#label-fanwei2,#label-fanwei3,#label-fanwei4{*/
+/*border: solid gold;*/
+/*}*/
+
+/*缩小范围内部*/
+.suoxiaofanweinei p {
+    top: 5px;
+    margin: 4px 4px 12px 4px;
+    font-size: 12px;
+    height: 20px;
+}
+
+/*右上搜索第二个*/
+/*.yssousuo2 {*/
+/*position: absolute;*/
+
+/*height: 22px;*/
+/*background-color: #213a4c;*/
+/*bottom: 30px;*/
+/*}*/
+
+/*列表*/
+.liebiao1 {
+
+    top: 47px;
+    margin-top: 12px;
+    position: relative;
+    width: 620px;
+    height: 60px;
+    border: 1px solid #16202d;
+    background-color: #16202d; /*标签背景颜色*/
+
+
+}
+iframe{
+    position: absolute;
+    z-index: 100;
+}
+.liebiao1 p {
+    position: absolute;
+
+    left: 160px;
+    top: 8px;
+    color: #c7d5e0;
+    width: auto;
+    /*border: 1px solid black;*/
+}
+
+.liebiao1 span {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #c7d5e0;
+}
+
+.qian {
+    position: absolute;
+    right: 38px;
+    top: 10px;
+    color: #c7d5e0;
+}
+
+/*第一行数据*/
+.shuju1 {
+
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    /*border: 1px solid black;*/
+
+}
+
+.shuju1 img {
+
+    height: 60px;
+    width: 150px;
+}
+
+.liebiao {
+    position: absolute;
+    height: auto;
+}
+
+.label2, .label3, .label4, .label1 {
+    color: #c7d5e0;
+    font-size: 13px;
+    height: 25px;
+
+    line-height: 25px;
+    font-weight: bold;
+
+}
+
+.yixuanleixing, .wjrs, .ygnts {
+    position: absolute;
+    margin: 215px -4px;
+    color: #c7d5e0;
+    right: 0px;
+    background-color: #1b2838; /*标签背景颜色*/
+    height: auto;
+    width: 195px;
+    float: right;
+    border: 1px solid #4c6c8c;
+    top: 12px;
+
+}
+
+.wjrs {
+    position: absolute;
+
+    margin: 430px -4px;
+}
+
+.ygnts {
+    position: absolute;
+    margin: 685px -4px;
+}
+
+.shangxiaye {
+    position: relative;
+
+    left: 255px;
+    top: -78px;
+    width: 120px;
+
+    color: #67c1f5;
+}
+
+.shuliang {
+    width: 200px;
+    position: relative;
+    margin: 60px -4px;
+
+    color: #67c1f5;
+}
+
+.shang {
+    position: relative;
+    height: 24px;
+    width: 50px;
+    color: #67c1f5;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #2a475e;
+}
+
+.shang:hover {
+    color: white;
+    background-color: #60b5e5;
+}
+
+.liebiao1:hover {
+    background-color: #101822;
+    border: 1px solid #3275c3;
+}
+
+.suoxiaofanweinei p:hover {
+    background-color: #323e4c;
+
+}
+
+.suoxiaofanweinei input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+}
+
+.winlogo {
+    position: absolute;
+    top: 33px;
+    left: 158px;
+    opacity: 0.3;
+}
+
+.icologo {
+    position: absolute;
+    top: 33px;
+    left: 188px;
+    opacity: 0.3;
+
+}
+/*浮动标签*/
+/* #rexiaobug{
+	border:2px solid red;
+	z-index:99999;
+} */
+.xia{
+	position:absolute;
+	height: 24px;
+    width: 50px;
+    color: #67c1f5;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #2a475e;
+}
+

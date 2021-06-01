@@ -1,0 +1,273 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+input{
+	color:white;s
+}
+/*logo的图片的样式*/
+.logo {
+    position: absolute;
+    left: 120px;
+    top: 28px;
+    width: 15%;
+}
+
+/*整个导航标签的设置*/
+.nav {
+    width: 1024px; /*导航宽度1920*/
+    height: 80px; /*高度100*/
+    background-color: rgb(23, 26, 33); /*背景颜色*/
+}
+
+/*导航标签内服务下的li标签设置*/
+.nav_fuwu li {
+    float: left; /*ul列表变为一行*/
+    color: #a9b6b6; /*字体颜色*/
+    font-size: 12px; /*字体大小*/
+    list-style-type: none; /*去无序列表的点(ul)*/
+    margin-right: 20px; /*右外边距20px*/
+
+}
+
+/*导航内服务标签的设置*/
+.nav_fuwu {
+    position: absolute; /*绝对定位不设置不能移动*/
+    left: 300px; /*正数从左向右*/
+    top: 37px; /*正数从上到下*/
+}
+
+.nav_fuwu:hover {
+    color: #16202d;
+}
+
+/*/!*body下有个div叫bodayall标签 扩起所有需要 其他内部标签*!/
+.bodayall{
+    background-color: rgb(27, 40, 56);/!*标签背景颜色*!/
+    width: 900px;/!*宽度*!/
+}*/
+/*一张透明图片设置*/
+.all_xuse {
+    width: 900px;
+    position: absolute;
+    top: 0px;
+}
+
+/*所有写的代码在这个类下*/
+.bodayall {
+    background-color: rgb(233, 128, 76); /*标签背景颜色*/
+    width: 820px; /*宽度*/
+
+}
+
+/*导航内服务标签  和nav导航不同  另一个这个是拼音导航 明明出现问题 不要学*/
+.daohang_fuwu {
+    position: absolute; /*绝对定位不设置不能移动*/
+    top: 100px;
+    left: 117px;
+    background-color: #367096;
+    padding-right: 420px; /*右内填充*/
+    padding-top: 6px; /*上内填充*/
+    padding-bottom: 5px; /*下内填充*/
+    height: auto;
+
+}
+
+.daohang_fuwu img {
+    height: 8px;
+}
+
+/*导航服务下的span设置*/
+.daohang_fuwu span {
+
+    margin: -4px; /*外填充*/
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    border-left: solid; /*标签左侧加线*/
+    border-right: solid; /*标签右侧加线*/
+    border-width: 1px; /*线宽度*/
+    border-color: #2b5570; /*线颜色*/
+    color: #a9b6b6; /*字体颜色*/
+    background-color: #367096;
+
+}
+
+#span1 {
+    margin: 0px;
+    border: none;
+
+}
+
+.span1:hover {
+    color: #596c6f;
+    background-color: #d7e1e9;
+}
+
+.daohang_fuwu img {
+    padding-left: 10px;
+    padding-top: 3px;
+
+}
+
+/*搜索全部 text文本框设置*/
+.sousuo_quanbu {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    height: 23px;
+    background-color: rgb(49, 98, 130);
+    border: 1px solid #22455b;
+    border-radius: 3px;
+}
+
+.sousuo_quanbu:hover {
+    border: 1px solid #4c9acc;
+
+}
+
+/*搜索全部的按钮的设置*/
+.suosuo_quanbu_anniu {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    height: 21px;
+
+}
+
+.suosuo_quanbu_anniu:hover {
+    background-color: #4c9acc;
+
+}
+
+/*导航 展开 第一个设置*/
+.daohang_zhankai_1 {
+    position: absolute;
+    top: 130px;
+    left: 117px;
+    background-color: #ffffff;
+    width: 84px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    font-size: 14px;
+
+    box-shadow: #666 0px 0px 10px;
+
+}
+#aa{
+    position: absolute;
+    right: 85px;
+    top: 50px;
+    z-index: 100;
+}
+
+/*导航 展开 第二个设置*/
+#daohang_zhankai_2 {
+    position: absolute;
+    top: 130px;
+    left: 229px;
+}
+
+/*导航 展开 第三个设置*/
+#daohang_zhankai_3 {
+    position: absolute;
+    top: 130px;
+    left: 305px;
+    /*导航 展开 第四个设置*/
+}
+
+#daohang_zhankai_4 {
+    position: absolute;
+    top: 130px;
+    left: 384px;
+    /*导航 展开 第五个设置*/
+}
+
+.xuanting_waigua div {
+    background-color: #dae3ea;
+
+}
+
+.dantiao {
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 27px;
+}
+
+.dantiao:hover {
+    color: white;
+    background-color: #212d3d;
+}
+
+
+
+.wudisousuokuang {
+    width: 340px;
+    /*height: 255px;*/
+    background-color: #e0e8ed;
+    position: absolute;
+    left: 499px;
+    top: 29px;
+    z-index: 1000;
+-webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+    padding: 7px;
+}
+.sousuo_game{
+    width: 340px;
+    height: 56px;
+    border-top: 1px solid #13242e;
+    margin-top: 5px;
+}
+.sousuo_game img{
+    width: 90px;
+    height: 45px;
+position: absolute;
+    left: 2px;
+}
+.game_title{
+    position: relative;
+    margin-top: 13px;
+    margin-left: 110px;
+    font-size: 14px;
+}
+.game_title2{
+    position: absolute;
+    top: 87px;
+    left: 130px;
+    font-size: 14px;
+}
+.game_title3{
+    position: absolute;
+    top: 151px;
+    left: 130px;
+    font-size: 14px;
+}
+.game_title4{
+    position: absolute;
+    top: 215px;
+    left: 130px;
+    font-size: 14px;
+}
+.qianfuhao{
+    font-size: 12px;
+
+}
+.game_money{
+    font-size: 12px;
+}
+
+.sousuo_game:hover{
+    background-color: #212d3d;
+    color: white;
+}
+.game_biaoti{
+	    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
